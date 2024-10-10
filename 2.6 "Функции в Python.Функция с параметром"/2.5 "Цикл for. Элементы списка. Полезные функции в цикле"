@@ -1,0 +1,14 @@
+def get_matrix(n,m,value):
+    matrix = []
+    nool = []
+    for i in range(n):
+        matrix.append(nool)
+    for j in range(m):
+        nool.append(value)
+    return matrix
+resultat1 = get_matrix(2,2,10)
+resultat2 = get_matrix(3,5,42)
+resultat3 = get_matrix(4,2,13)
+print(resultat1)
+print(resultat2)
+print(resultat3)
